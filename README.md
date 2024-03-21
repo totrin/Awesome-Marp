@@ -1,6 +1,6 @@
-[✨ README-en](https://github.com/favourhong/Awesome-Marp/blob/main/README-en.md)、[🎉 README-zh](https://github.com/favourhong/Awesome-Marp/blob/main/README.md)
-
 ## Awesome Marp: Easily replace LaTeX Beamer!
+
+> https://github.com/favourhong/Awesome-Marp
 
 ## Why `Awesome Marp`?
 
@@ -52,12 +52,12 @@ There are only three: the Markdown syntax, the Markdown editor ([Visual Studio C
 - Little easter: the link automatically adds a little tail:
 
 - It is also possible to customize the horizontal alignment of images: center, left or right. 
-	- Horizontal center alignment of images: `! [#c](. /images/a.png)`  
-	- Pictures are horizontally right-aligned: `! [#r](. /images/a.png)` 
-	- Pictures are horizontally left-aligned: `! [#l](. /images/a.png)`
+	- Horizontal center alignment of images: `![#c](. /images/a.png)`  
+	- Pictures are horizontally right-aligned: `![#r](. /images/a.png)` 
+	- Pictures are horizontally left-aligned: `![#l](. /images/a.png)`
 - …… 
 
-To summarize, there are currently 38 custom styles like the one above supported in `Awesome Marp` 1.3! To use them, you just need to specify a local directive on the page, e.g. `<! -- _class: trans -->`)
+To summarize, there are currently 38 custom styles like the one above supported in `Awesome Marp` 1.3! To use them, you just need to specify a local directive on the page, e.g. `<!-- _class: trans -->`)
 
 
 Not only that, but I've also designed 6 theme colors, and to switch between them, all you need to do is define `theme: <theme_name>` in the YAML section:
